@@ -1,0 +1,129 @@
+.ToolsticAzul    { background-color: #0e193a !important; }
+.ToolsticRojo    { background-color: #f15a5d !important; }
+.ToolsticVerde    { background-color: #279691 !important; }
+.ToolsticBlanco    { background-color: #FBFBFF !important; }
+.ToolsticAmarillo    { background-color: #ffe52e !important; }
+.ToolsticFondo    { background-color: #5d9b9b !important; }
+
+.DesplH { /* ACTIVAR EL DESPLAZAMIENTO HORIZONTAL */
+    height: 650px;
+    overflow: auto;
+}
+
+body{
+    background: #FBFBFF;
+}
+
+
+.sombra { box-shadow: 3px 3px 20px  black; } /* SOMBRA COLOR NEGRO */
+
+.sombraBlanco { box-shadow: 5px 5px 5px #FBFBFF; } /* SOMBRA COLOR BLANCO */
+
+.sombraRojo { box-shadow: 5px 5px 5px #f15a5d; } /* SOMBRA COLOR ROJO */
+
+.sombraAzul { box-shadow: 5px 5px 5px #0e193a; } /* SOMBRA COLOR AZUL */
+
+
+
+.DesplH::-webkit-scrollbar { /* BARRA FONDO DE DESPLAZAMIENTO HORIZONTAL */
+    background: black;
+    box-shadow: 1px 1px 1px red;
+    width: 7px;
+}
+
+.DesplH::-webkit-scrollbar-thumb { /* BARRA DE MOVIMIENTO DESPLAZAMIENTO HORIZONTAL */
+    background: #279691;
+    border-radius: 5px;
+}
+
+.btnPregunta{ /* BOTONES DE PREGUNTAS */
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 80%;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c; 
+}
+
+.btnGuardar{ /* BOTON DE GUARDAR*/
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 50px;
+    padding: 10px 5px;
+    text-align: center;
+    width: 20%;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c; 
+}
+
+.btnGuardar.radius{ border-radius: 50px; } /* RADIO DE BOTONES DE PREGUNTAS */
+
+.btnGuardar:hover{ /* EFECTO HOVER DE BOTONES DE PREGUNTAS */
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px
+}
+
+.btnPregunta.radius{ border-radius: 50px; } /* RADIO DE BOTONES DE PREGUNTAS */
+
+.btnPregunta:hover{ /* EFECTO HOVER DE BOTONES DE PREGUNTAS */
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+}
+
+.fixed-action-btn-left { /* POSICION BOTON RETROCEDER */
+  position: fixed;
+  left: 300px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 997;
+}
+
+.Inicio{
+    text-align: center;
+    background-color: #f15a5d;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 20px 20px 20px black;
+}
+
+.inicio.l6{
+    height: 25%;
+}
+
+.inicio.s12{
+    height: 20%;
+}
+
+.Inicio:hover{
+    
+}
+
+.ingresar {
+    width: 5px;
+}
+
+.boton-ocw{
+    background: #0e193a;
+    color: white;
+    display: inline-block;
+    font-size: 2.00em;
+    margin: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    text-decoration: none;
+}
+
+nav{
+    height: 100px;
+}
